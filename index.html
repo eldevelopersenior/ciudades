@@ -1,0 +1,235 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monografía: Washington & Jerusalén</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;600;800&display=swap');
+
+        :root {
+            --dc-accent: #1e293b;
+            --jr-accent: #854d0e;
+            --paper: #fcfaf7;
+        }
+
+        body {
+            background-color: #111;
+            color: #1e293b;
+            font-family: 'Outfit', sans-serif;
+            line-height: 1.8;
+        }
+
+        .document-wrapper {
+            max-width: 1000px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .city-section {
+            background-color: var(--paper);
+            padding: 80px;
+            border-radius: 4px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .serif { font-family: 'Crimson Pro', serif; }
+
+        .section-header {
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+        }
+
+        .city-title {
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            line-height: 1;
+        }
+
+        .point-container {
+            margin-bottom: 40px;
+        }
+
+        .point-header {
+            display: flex;
+            align-items: baseline;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .point-number {
+            font-family: 'Crimson Pro', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--dc-accent);
+            font-style: italic;
+        }
+
+        .jr-text .point-number { color: var(--jr-accent); }
+
+        .point-label {
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            color: #64748b;
+        }
+
+        .point-content {
+            font-size: 1.1rem;
+            text-align: justify;
+            color: #334155;
+        }
+
+        .intel-box {
+            background: white;
+            border: 1px solid #e2e8f0;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .operation-badge {
+            background: #1e293b;
+            color: white;
+            padding: 4px 12px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .jr-badge { background: #854d0e; }
+
+        .highlight-text {
+            color: #0f172a;
+            font-weight: 600;
+        }
+
+        .case-study {
+            background-color: #fffbeb;
+            border-left: 4px solid #b45309;
+            padding: 20px;
+            margin-top: 15px;
+            font-style: italic;
+            color: #92400e;
+        }
+
+        @media (max-width: 768px) {
+            .city-section { padding: 40px 20px; }
+            .city-title { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="document-wrapper">
+
+        <!-- APARTADO 01: WASHINGTON D.C. -->
+        <section id="washington" class="city-section">
+            <div class="section-header">
+                <p class="uppercase tracking-widest text-xs font-bold text-slate-400 mb-2">Apartado Primero</p>
+                <h1 class="city-title serif text-slate-900">Washington D.C.</h1>
+                <p class="italic text-slate-500 text-lg">El Distrito Federal y la Arquitectura del Mando Occidental</p>
+            </div>
+
+            <div class="point-container">
+                <div class="point-header">
+                    <span class="point-number">01.</span>
+                    <span class="point-label">Entorno Natural y Social: La Geografía del Poder</span>
+                </div>
+                <div class="point-content">
+                    Washington D.C. no es una ciudad que surgió de la necesidad comercial, sino de una visión política. Situada en la orilla oriental del río Potomac, su ubicación fue elegida por George Washington como un punto medio entre el Norte y el Sur. Naturalmente, el terreno era un mosaico de humedales y ciénagas que le valieron el apodo de "The Swamp". Esta geografía húmeda y sofocante en verano ha forjado el carácter de la ciudad.
+                </div>
+            </div>
+
+            <div class="point-container">
+                <div class="point-header">
+                    <span class="point-number">02.</span>
+                    <span class="point-label">Génesis e Historia: De la Nada a la Superpotencia</span>
+                </div>
+                <div class="point-content">
+                    Establecida formalmente por el Acta de Residencia en 1790, Washington fue la primera ciudad del mundo anglosajón planificada exhaustivamente antes de poner la primera piedra. Tras la Segunda Guerra Mundial, dejó de ser una capital regional para convertirse en el epicentro de la hegemonía global, atrayendo a las instituciones financieras y militares más poderosas del planeta.
+                </div>
+            </div>
+
+            <div class="intel-box">
+                <div class="operation-badge">Cúpula de Inteligencia: CIA & NSA</div>
+                <h4 class="font-bold text-xl mb-3">Los Pulmones de la Información</h4>
+                <div class="point-content">
+                    Washington funciona gracias a una simbiosis de inteligencia humana y técnica. La <b>CIA</b> se enfoca en el <b>HUMINT</b> (Inteligencia Humana), infiltrando redes y ejecutando acciones encubiertas, mientras la <b>NSA</b> domina el espectro de las señales globales desde las sombras.
+                </div>
+            </div>
+        </section>
+
+        <!-- APARTADO 02: JERUSALÉN -->
+        <section id="jerusalen" class="city-section jr-text">
+            <div class="section-header">
+                <p class="uppercase tracking-widest text-xs font-bold text-amber-600 mb-2">Apartado Segundo</p>
+                <h1 class="city-title serif text-amber-900">Jerusalén</h1>
+                <p class="italic text-amber-700 text-lg">La Ciudad de Piedra y la Vanguardia de la Supervivencia</p>
+            </div>
+
+            <div class="point-container">
+                <div class="point-header">
+                    <span class="point-number">01.</span>
+                    <span class="point-label">Geografía de Montaña: La Fortaleza Sagrada</span>
+                </div>
+                <div class="point-content">
+                    Jerusalén se asienta sobre un terreno accidentado en los Montes de Judea. Geográficamente, está rodeada de valles profundos: el Valle del Cedrón y el Valle de Hinom han servido como fosos naturales durante tres milenios. Su recurso natural más preciado es la caliza dolomita, conocida como "Piedra de Jerusalén", que otorga a la urbe ese tono ámbar que la define cuando el sol se pone sobre sus murallas milenarias.
+                </div>
+            </div>
+
+            <div class="point-container">
+                <div class="point-header">
+                    <span class="point-number">02.</span>
+                    <span class="point-label">Historia: El Centro de la Tormenta</span>
+                </div>
+                <div class="point-content">
+                    Pocas ciudades han sido asediadas y capturadas tantas veces. Desde que el Rey David la declaró capital, Jerusalén ha sido el premio máximo. Hoy, su historia se escribe en clave de seguridad nacional; cada centímetro de su suelo es arqueología y cada rincón de su aire es vigilancia. Es una ciudad que no puede permitirse el lujo de bajar la guardia.
+                </div>
+            </div>
+
+            <div class="point-container">
+                <div class="point-header">
+                    <span class="point-number">03.</span>
+                    <span class="point-label">Arquitectura: El Triunfo de la Permanencia</span>
+                </div>
+                <div class="point-content">
+                    La arquitectura de Jerusalén es un <b>palimpsesto pétreo</b>. Dentro de la Ciudad Vieja, el diseño es puramente defensivo: calles estrechas y laberínticas diseñadas para confundir al invasor y proteger de la luz solar. Es una ciudad donde los refugios y los pasadizos están revestidos de la misma piedra que los templos de hace dos mil años, mimetizando la seguridad con la fe.
+                </div>
+            </div>
+
+            <div class="intel-box">
+                <div class="operation-badge jr-badge">Escudo del Estado: El Mossad</div>
+                <h4 class="font-bold text-xl mb-3">La Mente de la Supervivencia Activa</h4>
+                <div class="point-content mb-4">
+                    Para Israel, la inteligencia no es una opción, es una condición existencial. El <b>Mossad</b> (Instituto para la Inteligencia y Operaciones Especiales) es el brazo invisible de Jerusalén. A diferencia de las agencias burocráticas occidentales, el Mossad opera como una entidad pequeña, ágil y letal, donde el factor humano lo es todo.
+                    <br><br>
+                    Su especialidad es el <b>HUMINT</b> (Inteligencia Humana) en entornos hostiles. No se trata de interceptar correos, sino de la "captación": el arte de reclutar informantes en el corazón de los gobiernos enemigos, el uso de identidades falsas (los llamados <i>katsas</i> u oficiales de caso) y la ejecución de operaciones que parecen imposibles. En Jerusalén, se dice que el Mossad es el seguro de vida de una nación que no tiene margen de error.
+                </div>
+
+                <div class="case-study">
+                    <span class="highlight-text">CRÓNICA DE OPERACIÓN: LOS ESPÍAS DE LAS SOMBRAS</span><br><br>
+                    Lejos del ruido digital, el Mossad ha perfeccionado el arte de la infiltración física. Desde la mítica extracción de archivos nucleares en el corazón de Teherán —donde agentes entraron físicamente en un almacén custodiado— hasta la localización de objetivos mediante vigilancia clásica de "pie a tierra". En Jerusalén, la inteligencia se entiende como la capacidad de un agente para caminar por una capital enemiga sin ser detectado, moviendo los hilos del destino mediante la observación, el engaño y el coraje personal. Es la guerra de los hombres contra los hombres, donde el silencio es la mejor arma.
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="text-center p-12 text-gray-400 italic text-sm">
+        Documento con fines analíticos - Seguridad Nacional & Urbanismo
+    </footer>
+
+</body>
+</html>
